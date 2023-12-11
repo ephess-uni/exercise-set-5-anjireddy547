@@ -11,7 +11,7 @@ def main(infile):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(descrition='This programprints the number of lines in infile')
+    parser = argparse.ArgumentParser(descrition='This program prints the number of lines in infile')
     parser.add_argument('infile',help='provide file path',nargs='?')
     args = parser.parse_args()
     if  args.infile:
